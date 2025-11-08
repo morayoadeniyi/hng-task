@@ -1,0 +1,19 @@
+1. Data Flow Diagram (Showing how a transaction triggers a prompt)
+User Transfer → Behavior Monitor → Trigger Engine → Prompt Display
+
+2. Mobile UI Wireframes
+- Banking app home screen with Discoverio prompt
+- Prompt detail view (e.g., "Set up auto-savings?")
+- Success state after user activates feature
+
+3. Trigger Logic Flowchart
+Transaction Detected
+       ↓
+Is it a salary? → NO → Check other triggers
+       ↓ YES
+User has savings? → YES → Skip
+       ↓ NO
+Show savings prompt
+
+4. Admin Dashboard Mockup (Showing what the analytics dashboard looks like)
+
